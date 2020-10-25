@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 
 body {
@@ -40,10 +40,16 @@ body {
 }
 
 
-.text-blue-600 {
+.text-blue-650 {
 	--text-opacity: 1;
     color: #00498C;
 }
+
+.bg-blue-650 {
+	--text-opacity: 1;
+    background-color: #00498C;
+}
+
 .text-yellow-500 {
     --text-opacity: 1;
     color: #ffbf31;
