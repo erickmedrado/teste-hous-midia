@@ -21,6 +21,10 @@ body {
     background-image: -webkit-linear-gradient(285deg, #FFF 46%, #00498C 46%);
 }
 
+.card4 {
+    background-image: url('../../images/card4.jpg');
+}
+
 .shadow-x {
 	box-shadow: 0 0px 50px 0px rgba(0, 0, 0, 0.2);
 }
