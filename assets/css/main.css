@@ -25,6 +25,10 @@ body {
     background-image: url('../../images/card4.jpg');
 }
 
+.card5 {
+    background-image: url('../../images/card5.jpg');
+}
+
 .shadow-x {
 	box-shadow: 0 0px 50px 0px rgba(0, 0, 0, 0.2);
 }
@@ -33,6 +37,10 @@ body {
 
 .text-ss {
 	font-size: 7px;
+}
+
+.text-2xm {
+	font-size: 1.68rem;
 }
 
 .text-4xm {
