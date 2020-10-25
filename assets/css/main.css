@@ -1,5 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 
 body {
 	font-family: 'Roboto', sans-serif;
+}
+
+#tittle {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.contain {
+    background-image: -webkit-linear-gradient(303deg, #00498C 45%, #FFBF31 45%);
+}
+
+.card1 {
+    background-image: -webkit-linear-gradient(270deg, #00498C 75%, #FFBF31 75%);
+}
+
+.card2 {
+    background-image: -webkit-linear-gradient(285deg, #FFF 46%, #00498C 46%);
+}
+
+.shadow-x {
+	box-shadow: 0 0px 50px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* overwrite tailwindcss */
+
+.text-4xm {
+	font-size: 2.70rem;
+}
+
+.text-6xl {
+    font-size: 3.3rem;
+}
+
+
+.text-blue-600 {
+	--text-opacity: 1;
+    color: #00498C;
+}
+.text-yellow-500 {
+    --text-opacity: 1;
+    color: #ffbf31;
+}
+
+.hover\:text-yellow-500:hover {
+    --text-opacity: 1;
+    color: #ffbf31;
+}
+
+.border-yellow-500 {
+    --border-opacity:1;
+    border-color:#ffbf31;
 }
