@@ -27,6 +27,10 @@ body {
 
 /* overwrite tailwindcss */
 
+.text-ss {
+	font-size: 7px;
+}
+
 .text-4xm {
 	font-size: 2.70rem;
 }
