@@ -13,6 +13,18 @@ body {
     background-image: -webkit-linear-gradient(303deg, #00498C 45%, #FFBF31 45%);
 }
 
+@media screen and (max-width: 1024px) {
+	.contain {
+	    background-image: -webkit-linear-gradient(335deg, #00498C 45%, #FFBF31 45%);
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.contain {
+	    background-image: -webkit-linear-gradient(346deg, #00498C 45%, #FFBF31 45%);
+	}
+}
+
 .card1 {
     background-image: -webkit-linear-gradient(270deg, #00498C 75%, #FFBF31 75%);
 }
